@@ -1,0 +1,18 @@
+[project]
+name = "googlehackaton"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "folium>=0.19.6",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-google-vertexai>=2.0.24",
+    "langgraph>=0.4.5",
+    "pyproj>=3.7.1",
+    "pytz>=2025.2",
+    "requests>=2.32.3",
+    "streamlit>=1.45.1",
+    "streamlit-folium>=0.25.0",
+]
