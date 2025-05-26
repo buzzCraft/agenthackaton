@@ -1,0 +1,19 @@
+[project]
+name = "gcpworkshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "flask>=3.1.1",
+    "google-genai>=1.16.1",
+    "ipython>=9.2.0",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-google-vertexai>=2.0.24",
+    "langgraph>=0.4.5",
+    "markdown2>=2.5.3",
+    "pillow>=11.2.1",
+    "pydantic-ai>=0.2.6",
+]

@@ -1,5 +1,3 @@
-
-
 # Agent Hackathon Projects
 This repository contains two projects from the Google Hackathon in Oslo, May 2025:
 
@@ -32,7 +30,7 @@ This project is a news analysis tool that uses Google's Vertex AI (Gemini models
 - `flask` for web interface
 - `bs4` for web scraping
 - `markdown2` for rendering reports
-- `pydantic-ai` for data validation
+
 
 ### Project Structure
 
@@ -49,27 +47,4 @@ This project is a news analysis tool that uses Google's Vertex AI (Gemini models
   - `start_report()`: Initiates report generation
   - `index()`: Renders the main web page
 
-## 2. Wheelchair Pathfinding Agent
 
-### Project Overview
-This project is a proof of concept for an agent that can interact with a PostgreSQL database hosted on Supabase. The agent uses pgRouting to find the shortest path between two points, optimized for wheelchair users.
-
-### Main Features
-- Connects to a PostgreSQL database on Supabase
-- Uses pgRouting to calculate the shortest path between two points
-- Optimized for wheelchair users
-- Using LangChain and Langgraph for agent and graph management
-- Uses Google's Gemini API for natural language processing
-
-### Technical Components
-- **State Graph Workflow**: Creates a workflow for processing travel requests
-- **Geocoding**: Retrieves coordinates from place names using Entur's Geocoder API
-- **Trip Planning**: Plans accessible routes for wheelchair users
-- **UI Components**: Formats trip details and creates route maps
-
-### Project Structure
-- **agent.py**: Contains the TripAgent class that creates the workflow graph
-- **datamodel.py**: Defines data structures for the graph state
-- **node.py**: Contains nodes for the graph workflow including data extraction and coordinate retrieval
-- **walking_path.py**: Functions for path calculation using A* algorithm
-- **ui.py**: Functions for formatting trip details and creating route maps
